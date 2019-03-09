@@ -1,0 +1,16 @@
+{
+  "name": "cursoEs6",
+  "version": "1",
+  "description": "curso es6+",
+  "main": "index.js",
+  "author": "Paulo Antonelli",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
